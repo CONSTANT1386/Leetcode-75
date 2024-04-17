@@ -15,3 +15,13 @@ class Solution:
                 j += 1
                 n -= 1
         return result
+
+
+# Note:
+# More sufficiency needed in python3 !!
+# 1. for string appendence, using "+=" operator instead of ".append()"
+# 2. there is not shortcoming and operand such as "&&", “||” in python, instead "and", "or"
+# 3. for running in vscode, using the code as followed:
+# if __name__ == "__main__":
+#     solution = Solution()
+#     print(solution.mergeAlternately("ab", "pqrs"))
