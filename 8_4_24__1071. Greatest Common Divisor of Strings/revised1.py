@@ -21,3 +21,4 @@ class Solution:
 # 3. idea: to find the gcd(greatest) can sub from the end of smaller string, using
 #     for i in range(min(len1, len2),0,-1):
 #         str1[:i]
+# 重点：先判断字符串长度是否满足gcd，再从后往前获取最大的公约字符串
