@@ -16,5 +16,7 @@ class Solution:
 
 
 # IDEA: check every 3 item as a group
-# IDEA: for a new plant, check for the next item is not necessary, thereby gap 2 index
+# IDEA: for a new plant, check for the next item is not necessary, thereby gap 2 index, moreover, it hasn't edit the input list itself
 # optimization: return immediately as the n reach zero, reduce the following calculation
+
+#Python: in python if the end index of slice is surpass the length of list, that's okey!
