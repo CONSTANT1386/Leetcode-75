@@ -23,3 +23,4 @@ class Solution:
         return count >= n
 
 # Not rapid! Not clear!!
+# !!!NOTE: the change of value in enumerate() won't implement in the list!!!
