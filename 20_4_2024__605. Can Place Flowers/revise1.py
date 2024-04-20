@@ -16,5 +16,5 @@ class Solution:
 
 
 # IDEA: check every 3 item as a group
-# IDEA: for a new plant, check for the next item is not necessary
+# IDEA: for a new plant, check for the next item is not necessary, thereby gap 2 index
 # optimization: return immediately as the n reach zero, reduce the following calculation
