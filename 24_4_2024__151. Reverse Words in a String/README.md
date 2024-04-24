@@ -1,5 +1,7 @@
 # Gain
 - To traverse a list, `which used as a stack `, you should notice there is the <mark>`change of list length`, while traverse is on
+- Using `spilt()` method in python, which can trim the string firstly and return the `substring` in a list in order
+- `' '.join()`method return a string concatenating the list and used `' '` as seperator
 
 ```python
   # This is not suitable
