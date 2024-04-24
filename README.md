@@ -1,6 +1,10 @@
 # README.MD
 ## Hello everyone, this is my `first` Github Repository 🚀
+
+
 ### In this process, I'll record what code experience I can gain from my leetcode exercise, which I shedule it `5 days a week` 😃
+
+[The leetcode link😆](https://leetcode.com/studyplan/leetcode-75/)
 ### The content include
 >[!CAUTION]
 >### How can I solid my python basis, especially those `common and frequent issues` in coding
