@@ -1,0 +1,10 @@
+- ### FirstTry: Too large time complexity
+  - #### Need to compare `max` and `min` everytime
+- ### Revised1: Double Traversal
+    - ### Record the `left_min` which can be revoked in comparison of `min`, reducing the time consuming
+- ### Revised2: Greed Methon
+    - ### record variable `small` and `mid` everytime, discussing seperatively
+    - ### Core: the exsiting meaning of `mid` is that, *there is exactly one smaller before that*, whatever value is `small`
+    - ### if there is any element smaller than `small`, update it to the `small`(*Using to get `mid` afterwards*)
+    - ### if there is any element larger than `small` and smaller than `mid`, update it to `mid` (Means that there is already exsited two in-order tuple)
+    - ### if there is any element larger than `mid`, fine, the three turple has already been found!!
