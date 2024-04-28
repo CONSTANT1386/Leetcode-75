@@ -4,7 +4,9 @@
 - ### Revised2: Traverse once
     - #### Ensuer the left of `writer` pointer is non-zero, and the right of `writer` is zeros
     - #### When do a problem like put a certain element at end, don't just focus on moving in order, using `exchange`, not only protecting the order, but move the element requiring moving
+    - #### Everytime moving the non-zeros to the left of `writer` by exchanging, increase `writer`, then the left of `writer` is all non-zeros
   ```python
   # How to exchange two variables in python
   num[write], num[read] = num[read], num[write]
   ```
+  
