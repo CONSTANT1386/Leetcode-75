@@ -1,0 +1,5 @@
+- ## FirstTry: Violent search
+  - ### Using double-pointer, for every element in `s`, if found in `t`, inc the `i`
+- ## Revised1: Optimize Violent Search
+    - ### For coding, use `while` replace `for`
+- ## Revised2: Dynamic Programming
