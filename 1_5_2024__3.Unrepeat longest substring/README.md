@@ -1,0 +1,6 @@
+- ### FirstTry.py: Violent enumeration
+  - #### a double loop to check the longest sub-string from every index
+  - #### Time complexity: O(n<sup>2</sup>)
+- ### Revised1.py: Sliding Window
+    - #### Everytime for a new element, to check whether has it already been in a `queue`
+    - #### If in, remove the left-edge of the queue, until it is no repeated one, then add the newer one.
