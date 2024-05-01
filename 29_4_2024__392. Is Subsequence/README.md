@@ -7,4 +7,6 @@
     ![dp_matrix](image_dp_01.png)
   - ### Every time check the dp_matrix to find whether the element is out of `t` index range
 - ## Revised3: tricky one
-    - ### Combine `all` and `iter` 
+    - ### Combine `all` and `iter`
+    - ### How can Iterator realize the judement on order?
+    - ### Every time judge `i in b for i in s`, the iterator `b` will record the last iterate position, then iterate from next index!!
