@@ -7,4 +7,4 @@
     ![dp_matrix](image_dp_01.png)
   - ### Every time check the dp_matrix to find whether the element is out of `t` index range
 - ## Revised3: tricky one
-    - ### Combine `all` and `itr` 
+    - ### Combine `all` and `iter` 
