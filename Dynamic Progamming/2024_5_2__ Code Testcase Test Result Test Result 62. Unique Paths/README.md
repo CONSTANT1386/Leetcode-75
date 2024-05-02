@@ -2,7 +2,7 @@
 -  ### Revised1: Mathematic Solution
   - #### Since the robot can only walk towards right or down direction, the total steps for each direction is constant
   - #### For instance: for a 3x7 matrix, the total steps toward right is 6, and total one towards downward is 2
-    ![image01](image01.png)
+![image01](image01.png)
   - #### Thus the total steps is $C_{m+n-2}^{m-1} = C_{m+n-2}^{n-1}$
 - ### Revised2: DP
     - #### DP from left-up to right-down
