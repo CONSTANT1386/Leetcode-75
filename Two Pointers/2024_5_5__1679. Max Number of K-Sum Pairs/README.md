@@ -24,4 +24,8 @@ counts['d'] += 1
 print(counts)  # 输出: Counter({'a': 3, 'b': 2, 'c': 1, 'd': 1})
 
 ```
+- ### Revised2: Most Fast one
+    - #### Get all the numbers of each element firstly by `Counter(nums)`
+    - #### SMART: for each number smaller than k/2, the result add `min(cnt[num],cnt[k-num])`.
+    - #### Since every pair is made of two element, one <= k/2 and the other must >= k/2, there is no need to traverse the num > k/2, which is considered in `min()` already.
 - ### A similar example:[1. Two Sum](https://leetcode.com/problems/two-sum/)
