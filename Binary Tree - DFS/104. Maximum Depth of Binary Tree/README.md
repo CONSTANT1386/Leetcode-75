@@ -15,5 +15,5 @@ def maxDepth(self, root: Optional[TreeNode]) -> int:
   - #### for every iteration while the queue is not empty, there are a few things as followed to be completed:
       - **Traverse the queue, add all the sub-nodes into a new queue**
       - **update the `queue` to the lastest one**
-      - **add th `res` in each iteration**
+      - **add the `res` in each iteration**
   - #### Notice: the `left` or `right` of a `TreeNode` maybe `null`, thus use `if` to judge before add them to the new queue 
