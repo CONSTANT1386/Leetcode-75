@@ -10,3 +10,5 @@ def dfs(keys:List[int], r:List[int]):
                         r[key] = 1          # this line should be before the next line, because this related to whether a recursion method could happen for the next generations
                         dfs(rooms[key],r)
 ```
+- ### Revised1: BFS
+  - #### Notice what we append in `queue`, is it a `List[int]` or `int`?
