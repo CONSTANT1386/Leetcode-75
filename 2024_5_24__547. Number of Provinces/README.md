@@ -37,3 +37,9 @@ class UnionFind:
 - ### Revised2: DFS
   - #### Use `dfs()` to execute every city in the intial matrix. For each city recursion, the first level can be seen as the parent, i.e for each parent and its all children is a province.
   - #### If the current city haven't been visited in the recursion from front cities, it will be input as a parameter of new recursion, and the add `count`
+ 
+- ### Revised3: BFS
+  - #### For each unvisited city, making a BFS, marking unvisited cities connected separately
+  - #### For each BFS at the first level(i.e. the parent), it is a province
+ 
+- ### The core of BFS and DFS is to mark the unvisited cities from a city, then to construct a whole province, the numbers of roots is exactly the number of provinces. Every time we invoke a DFS(for the first level) or BFS, that is we are constructing *one* province.
