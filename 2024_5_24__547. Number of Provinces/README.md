@@ -33,3 +33,7 @@ class UnionFind:
         if px != py:
             self.father[x] = py
   ```
+
+- ### Revised2: DFS
+  - #### Use `dfs()` to execute every city in the intial matrix. For each city recursion, the first level can be seen as the parent, i.e for each parent and its all children is a province.
+  - #### If the current city haven't been visited in the recursion from front cities, it will be input as a parameter of new recursion, and the add `count`
