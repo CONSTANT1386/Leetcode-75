@@ -1,5 +1,5 @@
 ## [547. Number of Provinces](https://leetcode.com/problems/number-of-provinces/?envType=study-plan-v2&envId=leetcode-75)
-- ### Revised1: UnionFindSet
+- ### Revised1: UnionFindSet -- Time Complexity $O(n^{2}logn) \approx O(n^{2})$
   - #### Traverse the representative matrix: only need to traverse the down-left triangle
   - #### Using UnionFindSet, whose module is as followed
   - #### [Explanation--UnionFindSet](https://leetcode.cn/problems/number-of-provinces/?envType=study-plan-v2&envId=leetcode-75)
