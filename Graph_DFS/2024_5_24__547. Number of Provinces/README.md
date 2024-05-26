@@ -14,7 +14,7 @@ class UnionFind:
 
     def find(self, x):
         root = x
-        while self.father[x] is not None: root = self.father[x]
+        while self.father[root] is not None: root = self.father[x]
         # when trying to find an ancestor, optimatize the depth of graph into 2
         # Optimize the speed for find next time, and merge
         while x != root:
